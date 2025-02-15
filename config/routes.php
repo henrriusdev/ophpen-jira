@@ -1,6 +1,5 @@
 <?php
 return [
-  ['GET', '/', []],
-  ['GET', '/tickets', []],
-  ['POST', '/tickets', []]
+  ['GET', '/', [\MyApp\Infrastructure\Http\Controllers\TicketController::class, 'list']],
+  ['POST', '/tickets', [\MyApp\Infrastructure\Http\Controllers\TicketController::class, 'create']]
 ];

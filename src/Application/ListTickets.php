@@ -2,7 +2,7 @@
 namespace MyApp\Application;
 
 use MyApp\Domain\Ticket;
-use MyApp\Infrastructure\Persitence\TicketRepository;
+use MyApp\Infrastructure\Persistence\TicketRepository;
 
 class ListTickets
 {

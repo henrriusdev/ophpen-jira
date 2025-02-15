@@ -2,8 +2,8 @@
 namespace MyApp\Domain;
 
 class Ticket {
-    private string $title;
-    private string $description;
+    public string $title;
+    public string $description;
     private int $id;
 
     public function __construct(string $title, string $description, int $id) {
