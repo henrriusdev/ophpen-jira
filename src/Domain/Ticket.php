@@ -6,7 +6,7 @@ class Ticket {
     private string $description;
     private int $id;
 
-    public function _construct(string $title, string $description, int $id) {
+    public function __construct(string $title, string $description, int $id) {
         $this->title = $title;
         $this->description = $description;
         $this->id = $id;
